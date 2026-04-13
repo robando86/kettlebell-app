@@ -224,7 +224,7 @@ const C = {
 };
 
 const s = {
-  app:{fontFamily:"'DM Sans',system-ui,sans-serif",background:C.bg,minHeight:"100vh",maxWidth:480,margin:"0 auto",position:"relative"},
+  app:{fontFamily:"'DM Sans',system-ui,sans-serif",background:C.bg,minHeight:"100vh",maxWidth:"100%",margin:"0 auto",position:"relative"},
   screen:{paddingBottom:80,minHeight:"100vh"},
   header:{padding:"14px 20px 12px",background:C.bg,borderBottom:`1px solid ${C.border}`,display:"flex",alignItems:"center",justifyContent:"space-between",position:"sticky",top:0,zIndex:10},
   card:{background:C.white,borderRadius:16,padding:"14px 18px",marginBottom:10,boxShadow:"0 1px 4px rgba(0,0,0,0.06)"},
